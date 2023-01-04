@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{03FA7C9F-0808-4F67-B25A-3B9AFA362A6F}</ProjectGuid>
+    <RootNamespace>OLDCSS_INTERNAL</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetExt>.dll</TargetExt>
+    <ExecutablePath>$(VC_ExecutablePath_x86);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH);</ExecutablePath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>G:\Temp\Source Codes\AOLDCSS_INTERNAL\OLDCSS_INTERNAL\SDK;G:\Temp\Source Codes\AOLDCSS_INTERNAL\OLDCSS_INTERNAL\SDK\vgui;G:\Temp\Source Codes\AOLDCSS_INTERNAL\OLDCSS_INTERNAL\SDK\tier0;G:\Temp\Source Codes\AOLDCSS_INTERNAL\OLDCSS_INTERNAL\SDK\cl_dll;G:\Temp\Source Codes\AOLDCSS_INTERNAL\OLDCSS_INTERNAL\SDK\tier1;G:\Temp\Source Codes\AOLDCSS_INTERNAL\OLDCSS_INTERNAL\SDK\appframework;G:\Temp\Source Codes\AOLDCSS_INTERNAL\OLDCSS_INTERNAL\SDK\demofile;G:\Temp\Source Codes\AOLDCSS_INTERNAL\OLDCSS_INTERNAL\SDK\Friends;G:\Temp\Source Codes\AOLDCSS_INTERNAL\OLDCSS_INTERNAL\SDK\dlls;G:\Temp\Source Codes\AOLDCSS_INTERNAL\OLDCSS_INTERNAL\SDK\game_shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>G:\Temp\Source Codes\AOLDCSS_INTERNAL\DXSDK\Lib\x86;G:\Temp\Source Codes\AOLDCSS_INTERNAL\OLDCSS_INTERNAL\SDK\ImportLibrarys;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>d3d9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="Drawing.cpp" />
+    <ClCompile Include="Hook.cpp" />
+    <ClCompile Include="SuckMyDuck.cpp" />
+    <ClCompile Include="vtable.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cEntity.h" />
+    <ClInclude Include="cNetVars.h" />
+    <ClInclude Include="cVars.h" />
+    <ClInclude Include="esp.h" />
+    <ClInclude Include="Include.h" />
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="SDK\vgui\VGUI.h" />
+    <ClInclude Include="vtable.h" />
+    <ClInclude Include="XorString.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
