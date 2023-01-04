@@ -36,6 +36,10 @@ Screenshots
 ![ss2](https://i.hizliresim.com/b7ijf1u.png)
 
 
-Video
+Video's 
 
 [<img src="https://img.youtube.com/vi/l2gOXo86kt4/maxresdefault.jpg">](https://www.youtube.com/watch?v=l2gOXo86kt4 "")
+
+
+[<img src="https://img.youtube.com/vi/G2FzAg9uCLI/maxresdefault.jpg">](https://youtu.be/G2FzAg9uCLI "")
+
