@@ -2,11 +2,9 @@
 
 ![Project Screenshot](https://i.hizliresim.com/yhddhv1.png)
 
-*Note: The project you're referencing appears to be related to cheating in a video game. Cheating in games is generally against the terms of service of most gaming platforms and can lead to penalties or bans. It's important to use your skills responsibly and ethically.*
-
 ## Overview
 
-Welcome to the Counter-Strike: Source v34 Internal ESP Cheat, built on Source Engine 7 (Build 4044). This project provides an enhanced gaming experience for players who are looking for an extra layer of information and visuals within the game.
+Counter-Strike: Source v34 Internal ESP Cheat, built on Source Engine 7 (Build 4044). This project provides an enhanced gaming experience for players who are looking for an extra layer of information and visuals within the game.
 
 ### Features
 
