@@ -28,3 +28,9 @@ Counter-Strike: Source v34 Internal ESP Cheat, built on Source Engine 7 (Build 4
 [Watch on YouTube](https://www.youtube.com/watch?v=l2gOXo86kt4)
 
 [Watch on YouTube](https://youtu.be/G2FzAg9uCLI)
+
+## Disclaimer
+
+Please be aware that this project is purely for educational purposes only. Using scripts like these in multiplayer games can be against the terms of service and may result in consequences or bans. Use this script responsibly, and only in accordance with the game's rules and policies. The project's developers are not responsible for any negative consequences resulting from the use of this script.
+
+
